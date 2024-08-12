@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment3</string>
+
+    <string name="header"><u>Intent Notify Example</u></string>
+    <string name="msg_header"><u>Intent Received</u></string>
+
+    <string name="msg_input">Enter Message</string>
+    <string name="msg_display">Message Received</string>
+    <string name="msg_hint">Sample Data</string>
+    <string name="send_msg_btn">Send via Intent</string>
+    <string name="show_dialog_1">Show Dialog 1</string>
+    <string name="show_dialog_2">Show Dialog 2</string>
+    <string name="inner_menu">Inner Menu</string>
+</resources>

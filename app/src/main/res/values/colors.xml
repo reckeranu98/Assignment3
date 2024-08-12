@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="orange">#E85516</color>
+    <color name="background">#DAC5C5</color>
+    <color name="header">#E156F3</color>
+    <color name="sub_header">#7611E1</color>
+
+    <color name="colorPrimary">#2A45DC</color>
+    <color name="colorDark">#05B16C</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myBlue">#7198DD</color>
+    <color name="myWhite">#FFF</color>
+    <color name="myPeach">#f8a055</color>
+
+</resources>

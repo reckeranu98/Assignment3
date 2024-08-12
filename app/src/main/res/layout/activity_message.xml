@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        tools:context=".MessageActivity">
+    <TextView
+            android:id="@+id/msgHeader"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/msg_header"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:textColor="@color/header"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.05"
+            app:layout_constraintHorizontal_bias="0.5"
+    />
+
+    <TextView
+            android:id="@+id/msgTitle"
+            android:text="@string/msg_display"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/sub_header"
+
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/msgHeader"
+            app:layout_constraintHorizontal_bias="0.5"
+    />
+    <EditText
+            android:id="@+id/msgValueET"
+            android:text="@string/msg_hint"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/orange"
+
+            android:hint="Hint"
+            android:autofillHints=""
+            android:inputType="none"
+            android:focusable="false"
+
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/msgTitle"
+            app:layout_constraintHorizontal_bias="0.5"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
